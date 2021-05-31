@@ -62,3 +62,5 @@ fetch("https://api.github.com/users/wesbos")
   .then((data) => {
     console.timeEnd("Fetching data");
   });
+
+console.table(dogs);
